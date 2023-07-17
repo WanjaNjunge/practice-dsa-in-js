@@ -9,9 +9,14 @@ function linearSearch(array, key) {
      return -1;
      
   }
+
+function verify(index) {
+    index!==-1?
+    console.log("Target found at "+index):console.log("Target not found")
+}
   
   
   
-  
-  const ans = linearSearch([2, 7, 13, 4], 13);
-  console.log(ans)
+  numbers = [2, 7, 13, 4]
+  const ans = linearSearch(numbers, 11);
+  console.log(verify(ans));
