@@ -18,5 +18,7 @@ function verify(index) {
   
   
   numbers = [2, 7, 13, 4]
-  const ans = linearSearch(numbers, 11);
-  console.log(verify(ans));
+  const ans = linearSearch(numbers, 7);
+verify(ans)
+
+// run node file_name.js to view output
