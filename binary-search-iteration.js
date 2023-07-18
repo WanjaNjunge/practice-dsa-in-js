@@ -21,6 +21,6 @@ function verify(index) {
 
 
 
-numbers = [2, 7, 13, 4]
+numbers = [2, 3, 4, 5]
 const ans = binarySearch(numbers, 8);
 verify(ans)
